@@ -1,0 +1,26 @@
+{
+    "name": "coarasa/slim2",
+    "description": "",
+    "authors": [
+        {
+            "name": "wally",
+            "email": "coarasaw@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "illuminate/database": "^8.13",
+        "illuminate/events": "^8.13"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Clases\\":"clases",
+            "App\\": "src",
+            "Config\\": "config",
+            "Img\\": "imagenes"
+        }
+    }
+}
